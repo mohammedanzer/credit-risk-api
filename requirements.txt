@@ -1,0 +1,12 @@
+# ── Web framework ──────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+
+# ── Data / ML ──────────────────────────────────────────────────────────────
+scikit-learn==1.7.2       # must match the version used to train the model
+numpy==1.26.4
+pandas==2.2.3
+joblib==1.4.2
+
+# ── Validation (bundled with FastAPI but pinned for reproducibility) ────────
+pydantic==2.10.3
