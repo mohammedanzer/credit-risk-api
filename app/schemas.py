@@ -106,7 +106,7 @@ class CreditRiskRequest(BaseModel):
         ...,
         alias="Credit amount",
         ge=250,
-        le=20000,
+        le=50000,
         description="Loan amount in Deutsche Mark (250–20 000)",
         example=5000,
     )
