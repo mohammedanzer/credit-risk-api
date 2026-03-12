@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { RadialBarChart, RadialBar, PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
-const API_URL = "https://credit-risk-api-1-zfk2.onrender.com/predict"; // 🔁 Replace with your Render/HF URL
+const API_URL = "https://credit-risk-api-2-xsnv.onrender.com/predict"; // 🔁 Replace with your Render/HF URL
 
 const FIELD_STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap');
