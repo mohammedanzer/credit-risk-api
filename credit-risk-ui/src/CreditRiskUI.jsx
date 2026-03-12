@@ -389,7 +389,7 @@ export default function CreditRiskUI() {
                 {/* Credit amount */}
                 <div className="field">
                   <label>Loan Amount (DM)</label>
-                  <input type="number" min={250} max={20000} step={50} value={form["Credit amount"]} onChange={e => set("Credit amount", e.target.value)} />
+                  <input type="number" min={250} max={50000} step={50} value={form["Credit amount"]} onChange={e => set("Credit amount", e.target.value)} />
                 </div>
 
                 {/* Duration */}
