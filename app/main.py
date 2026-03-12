@@ -70,7 +70,10 @@ app = FastAPI(
 # CORS – allow all origins in dev; tighten for production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins     = ["*"],
+    allow_origins     = [
+      "http://localhost:5173",
+      "https://credit-risk-api-1-zfk2.onrender.com"
+    ],
     allow_credentials = True,
     allow_methods     = ["*"],
     allow_headers     = ["*"],
